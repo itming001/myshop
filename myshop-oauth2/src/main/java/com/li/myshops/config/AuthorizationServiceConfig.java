@@ -1,4 +1,4 @@
-package com.li.myshop.aouth.config;
+package com.li.myshops.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

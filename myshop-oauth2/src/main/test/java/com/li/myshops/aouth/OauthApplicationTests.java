@@ -1,4 +1,4 @@
-package com.li.myshop.aouth;
+package com.li.myshops.aouth;
 
 import com.alibaba.fastjson.JSON;
 import okhttp3.Call;
@@ -45,7 +45,7 @@ public class OauthApplicationTests {
     }
     @Test
     public void testPost() throws IOException {
-        String url="http://localhost:9001/oauth/token";
+        String url="http://localhost:8001/umsadmin/getUmsAdmin";
         OkHttpClient client = new OkHttpClient();
         FormBody body = new FormBody.Builder()
                 .add("username", "liyanming")

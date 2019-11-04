@@ -8,9 +8,6 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 
-/**
- * @author dell
- */
 //@Configuration
 //@EnableResourceServer
 //@EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true, jsr250Enabled = true)
@@ -24,5 +21,10 @@ public class ProfileResourceServerConfiguration extends ResourceServerConfigurer
                 .and()
                 .authorizeRequests()
                 .antMatchers("/**").hasAuthority("USER");
+    }
+    @Override
+    public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
+        // 配置资源 ID
+        resources.resourceId("backend-resources");
     }
 }

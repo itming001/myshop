@@ -1,4 +1,4 @@
-package com.li.myshop.commons.dto;
+package com.li.myshops.commons.dto;
 
 import lombok.Data;
 import java.io.Serializable;
@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @author Lusifer
  * @version v1.0.0
  * @date 2019-07-26 04:43:54
- * @see com.li.myshop.commons.dto
+ * @see com.li.myshops.commons.dto
  *
  */
 @Data

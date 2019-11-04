@@ -1,6 +1,6 @@
-package com.li.myshop.aouth.config;
+package com.li.myshops.config;
 
-import com.li.myshop.aouth.service.UserDetailsServiceImpl;
+import com.li.myshops.service.UserDetailsServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

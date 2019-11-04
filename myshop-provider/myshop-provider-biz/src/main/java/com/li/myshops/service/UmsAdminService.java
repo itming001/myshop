@@ -2,6 +2,9 @@ package com.li.myshops.service;
 
 import com.li.myshops.entity.UmsAdmin;
 
+/**
+ * @author dell
+ */
 public interface UmsAdminService {
     /**
      * 新增用户

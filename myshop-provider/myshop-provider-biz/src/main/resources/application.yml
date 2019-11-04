@@ -4,7 +4,7 @@ spring:
   main:
     allow-bean-definition-overriding: true
   application:
-    name: myshops-provider-biz
+    name: myshop-provider-biz
   cloud:
     nacos:
       discovery:
@@ -42,3 +42,6 @@ security:
       user-authorization-uri: http://localhost:9001/oauth/authorize
     resource:
       token-info-uri: http://localhost:9001/oauth/check_token
+feign:
+  okhttp:
+    enabled: true
